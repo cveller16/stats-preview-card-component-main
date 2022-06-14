@@ -1,0 +1,97 @@
+body {
+  background-color: #090B1A;
+  text-align: left;
+}
+h1 {
+  font-family: 'Inter';
+  color: #fff;
+  display: inline-block;
+  width: 400px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.5rem;
+  /* display: inline-block; */
+}
+
+p {
+  font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 400px;
+  line-height: 1.5;
+}
+
+.card {
+  background-color: #1B1938;
+  margin: 120px;
+  border-radius: 10px;
+
+}
+.card-text {
+  display: inline-block;
+  padding: 40px;
+}
+
+.stat-box {
+  display: inline-block;
+  padding: 5%;
+
+}
+
+.stat-heading {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Lexend Deca';
+  display: inline;
+}
+
+
+.image {
+  position: relative;
+  float: right;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* filter: hue-rotate(#CC99FF); not working */
+}
+
+/* Attribution Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+/* @media (max-width: 375px) {
+  .image {
+    /* position: static; */
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px
+  }
+} */
+
+/* For Mobile */
+@media screen and (max-width: 375px) {
+    .view {
+        width: 400px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    .view {
+        width: 600px;
+    }
+}
+/* @screen {
+  375px;
+}
+
+@screen_l {
+  1440px;
+} */
